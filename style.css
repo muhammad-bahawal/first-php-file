@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head-cont{
+	background-image: url("images/img2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.text-clr{
+	color: #f4cb08;
+}
+.bah-brd{
+	border-bottom: 3px solid #f4cb08;
+	margin-left: 15px;
+}
+.bah-btn1{
+	background: #f4cb08;
+    border: #f4cb08;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}
+.bah-btn2{
+	background: transparent;
+	color: white;
+	border: 3px solid white;
+	padding: 7px;
+	font-weight: bold;
+}
+.bah-btn2:hover{
+	background: white;
+	color: black;
+}
+.text-styl{
+	color: #b3b3b3;
+	font-style: italic;
+    font-size: 1.5rem;
+}
+
+/*background images */
+.child-cont1{
+	background-image: url("images/img3.png");
+}
+.child-cont2{
+	background-image: url("images/img4.png");
+}
+.child-cont3{
+	background-image: url("images/img5.png");
+}
+.child-cont0{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	padding: 70px 0;
+}
+
+/*image styling*/
+.img-styl{
+	width: 70px;
+    border: 2px solid #f4cb08;
+    border-radius: 10px;
+    padding: 10px;
+}
+.text-styl2{
+	font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/*portfolio styling*/
+.portfolio-cont{
+	background: #2c2c2c;
+	padding: 40px;
+}
+
+/*complete project*/
+.back-img{
+	background-image: url("images/back_img.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+	padding-bottom: 50px;
+}
+.text-styl3{
+	font-weight: 900;
+	color: #f4cb08;
+}
+
+.img-styl2{
+	width: 80px;
+    background: #f4cb08;
+    padding: 17px;
+    border-radius: 40px;
+}
+
+/*worker detail*/
+.worker-detl{
+	background: #2c2c2c;
+	padding-bottom: 80px;
+}
+.wrk-text{
+	border: 2px solid white;
+	padding: 20px;
+	padding-bottom: 90px;
+}
+.wrk-img{
+	margin-top: -60px;
+}
+
+/*after worker detail*/
+.after-work{
+	background: #111111;
+	padding: 100px;
+}
+.read-more{
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+/*footer-cont*/
+.footer-cont{
+	background: #f4cb08;
+	margin-top: 100px;
+}
+.footer-butn{
+	background: #f4cb08;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+}
+.footer-butn:hover{
+	background: white;
+	color: black;
+}
+
+/*responsive css*/
+@media only screen and (max-width: 576px) {
+  .header-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .bah-flex {
+    display: flex; 
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bah-flex {
+    display: flex; 
+    flex-direction: column;
+  }
+}
